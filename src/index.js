@@ -207,9 +207,10 @@ window.onload = function() {
         alert('Download Model Error');
     };
 
-    const modelFile = 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/miku/miku_v2.pmd';
-   // const modelFile = 'https://139.199.164.24:8080/image/yuanzhu.obj'
-    const vmdFiles = [ 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/vmds/wavefile_v2.vmd' ];
+   // const modelFile = 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/miku/miku_v2.pmd';
+    const modelFile = 'https://139.199.164.24:8080/image/guanzhouta.pmd'
+   // const vmdFiles = [ 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/vmds/wavefile_v2.vmd' ];
+    const vmdFiles = [ 'http://139.199.164.24:8080/image/gzt.vmd' ];
     const helper = new THREE.MMDHelper();
     const loader = new THREE.MMDLoader();
     loader.load( modelFile,vmdFiles, function (object) {
