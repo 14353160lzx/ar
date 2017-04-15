@@ -204,7 +204,8 @@ window.onload = function() {
     };
 
     const onError = () => {
-        alert('Download Model Error');
+       // alert('Download Model Error');
+        alert('What the fuck');
     };
 
    // const modelFile = 'https://cdn.rawgit.com/mrdoob/three.js/dev/examples/models/mmd/miku/miku_v2.pmd';
